@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test1" verbose="1">
+    <test name="Calculator" preserve-order="true" enabled="true">
+        <classes>
+            <class name="LogInTest"></class>
+        </classes>
+    </test>
+    <test name="AddToBasket" preserve-order="true" enabled="true">
+        <classes>
+            <class name="AddToBasketTest"></class>
+        </classes>
+    </test>
+    <test name="ContactForm" preserve-order="true" enabled="true">
+        <classes>
+            <class name="ContactFormTest"></class>
+        </classes>
+    </test>
+    <test name="Registration" preserve-order="true" enabled="true">
+        <classes>
+            <class name="RegistrationTest"></class>
+        </classes>
+    </test>
+    <test name="Searching" preserve-order="true" enabled="true">
+        <classes>
+            <class name="SearchingTest"></class>
+        </classes>
+    </test>
+</suite>
