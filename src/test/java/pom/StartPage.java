@@ -15,7 +15,7 @@ public class StartPage {
 
     @FindBy(css = "a[href='https://epakiet.com/index.php/moje-konto/']")
     private WebElement loginLink;
-    @FindBy(id = "wp-block-search__input-5")
+    @FindBy(id = "wp-block-search__input-2")
     private WebElement searchLink;
 
     @FindBy(className = "wp-block-search__button")
