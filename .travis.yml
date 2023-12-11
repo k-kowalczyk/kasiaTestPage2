@@ -10,7 +10,7 @@ jobs:
     script:
       - .travis/scripts/param.sh 5 20
   - name: "MAIN BUILD"
-    if: branch = main
+    if: branch = main AND type != pull_request
     script:
       - .travis/scripts/param.sh 5 50
 
