@@ -7,4 +7,7 @@ jobs:
   - name: ala456
     script:
       - .travis/scripts/param.sh 15 50
+  - name: ala789
+    script:
+          - .travis/scripts/param.sh 30 50
 
