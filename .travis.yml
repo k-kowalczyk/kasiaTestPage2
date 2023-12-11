@@ -1,7 +1,9 @@
 language: java
 
 jobs:
-  name: ala123
+  - name: ala123
+    script:
+      - .travis/scripts/param.sh 5 50
+  - name: ala456
+      - .travis/scripts/param.sh 15 50
 
-  script:
-    - .travis/scripts/param.sh 5 50
