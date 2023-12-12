@@ -8,9 +8,12 @@ jobs:
   - name: "PR BUILD"
     if: type = pull_request
     script:
+      - .travis/scripts/param.sh 5 10
       - .travis/scripts/param.sh 5 20
   - name: "MAIN BUILD"
     if: branch = main AND type != pull_request
     script:
+      - .travis/scripts/param.sh 5 10
+      - .travis/scripts/param.sh 5 20
       - .travis/scripts/param.sh 5 50
 
